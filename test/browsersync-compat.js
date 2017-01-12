@@ -2,7 +2,7 @@ var bs = require('browser-sync').create();
 var expect = require('unexpected').clone();
 var pathModule = require('path');
 var root = pathModule.resolve(__dirname, '..', 'testdata') + '/';
-var processImage = require('../lib/processimage');
+var processImage = require('../lib/processImage');
 
 expect.use(require('unexpected-http'))
   .use(require('unexpected-image'))
